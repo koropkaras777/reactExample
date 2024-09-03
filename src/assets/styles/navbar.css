@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #fef7e5a7;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.navelements {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.shopping {
+  display: block;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.shopping a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.shopping div {
+  position: absolute;
+  top: 32px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  opacity: 0.8;
+  border-radius: 100%;
+  border: 2px solid #000000;
+  background-color: #f07067;
+  text-align: center;
+  padding: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.nav-elements {
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f234f;
+  text-decoration: none;
+}
+
+.nav-elements ul a.active {
+  color: #574c4c;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-elements-language {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+}
+
+.nav-elements-language button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.nav-elements-language-ua, .nav-elements-language-ua-repeat {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+#nel1 {
+  display: none;
+}
+
+#nel2 {
+  display: flex;
+}
+
+
+@media (max-width: 900px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #fef7e5;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+
+  #nel1 {
+    display: flex;
+  }
+  
+  #nel2 {
+    display: none;
+  }
+}

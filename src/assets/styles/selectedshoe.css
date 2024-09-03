@@ -1,0 +1,112 @@
+.shoe-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-top: 94px;
+  padding-bottom: 32px;
+}
+
+.shoe-information {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 32px;
+}
+
+.shoe-information-elem {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-price {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 136px;
+}
+
+.input-sizes {
+  width: 64px;
+}
+
+.product-button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.product-button:hover,
+.product-button:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.product-button:hover {
+  transform: translateY(-1px);
+}
+
+.product-button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.shoe-information-size {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shoe-information-elem h3, p {
+  margin: 0;
+}
+
+.shoe-poster {
+  max-width: 400px;
+}
+
+.shoe-poster img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 830px) {
+  .shoe-information {
+    align-items: center;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,50 @@
+{"shoes": [
+  {
+    "id": "0",
+    "name": "Air Force 1",
+    "brand": "Nike",
+    "type": "sneakers",
+    "sex": "men",
+    "price": "3400",
+    "isAvailable": true,
+    "availableSize": [ 39, 40, 41 ],
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/air-force-1-07-shoes-WrLlWX.png",
+    "imagetop": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a0a300da-2e16-4483-ba64-9815cf0598ac/air-force-1-07-shoes-WrLlWX.png"
+  },
+  {
+    "id": "1",
+    "name": "Air Jordan 1",
+    "brand": "Nike",
+    "type": "sneakers",
+    "sex": "unisex",
+    "price": "3600",
+    "isAvailable": true,
+    "availableSize": [ 39, 40, 41, 42, 43 ],
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4f597d9a-488a-480d-a591-11eee9db346a/air-jordan-1-shoes-d1vgvb.png",
+    "imagetop": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/207d7c24-78ee-4fde-bf8d-9f254b3531df/air-jordan-1-shoes-d1vgvb.png"
+  },
+  {
+    "id": "2",
+    "name": "Air Max 1",
+    "brand": "Nike",
+    "type": "sneakers",
+    "sex": "men",
+    "price": "2800",
+    "isAvailable": false,
+    "availableSize": [ 39, 40 ],
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/af872188-909b-4e75-a433-6d7abaa2a890/air-max-1-shoes-ZtQfN3.png",
+    "imagetop": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6fc1da03-a465-4c14-9a45-3ae6188bf4ae/air-max-1-shoes-ZtQfN3.png"
+  },
+  {
+    "id": "3",
+    "name": "Air Max Bliss",
+    "brand": "Nike",
+    "type": "sneakers",
+    "sex": "women",
+    "price": "4000",
+    "isAvailable": true,
+    "availableSize": [ 38, 39, 40, 41, 42 ],
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/793ecf71-9250-4f63-b15a-f0b6fa447745/air-max-bliss-shoes-fxw3Mh.png",
+    "imagetop": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b576bf10-d0a4-422c-b0c5-a1eb908e893c/air-max-bliss-shoes-fxw3Mh.png"
+  }
+]}

@@ -1,21 +1,19 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { useTranslation } from "react-i18next";
-import Header from './layouts/header/Header.js';
-import './assets/styles/app.css';
 
-const App = () => {
+const About = () => {
   const { t } = useTranslation();
 
   return (
     <HelmetProvider>
-      <div className='app'>
+      <div>
         <Helmet>
-          <title>{t("title")}</title>
+          <title>{t("title")} | {t("about")}</title>
         </Helmet>
-        <Header />
+        <p>About</p>
       </div>
     </HelmetProvider>
   );
 }
 
-export default App;
+export default About;

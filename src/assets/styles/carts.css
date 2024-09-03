@@ -1,0 +1,45 @@
+.carts-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.carts-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 300px -52px rgba(0,0,0,0.77);
+  border-radius: 10px;
+  margin-bottom: 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.carts-cart a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.carts-cart-title {
+  margin: 4px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.shoesImage img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 250px;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .shoesImage img {
+    max-width: 150px;
+  }
+}
